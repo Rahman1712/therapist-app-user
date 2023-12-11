@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri:
+        - ${CONFIG_HOST_URL:http://52.66.178.202:9196}
+#        - http://localhost:9196
